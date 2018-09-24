@@ -36,13 +36,10 @@ def main():
     run_test_sum_string_lengths()
     run_test_sum_even_integers()
     run_test_sum_items_at_even_indices()
-
 # ----------------------------------------------------------------------
 # The TEST functions are further down in the file,
 # so that you can focus on the following examples.
 # ----------------------------------------------------------------------
-
-
 def sum_string_lengths(sequence, m, n):
     """
     What comes in:
@@ -140,7 +137,6 @@ def sum_even_integers(sequence):
 
     return total
 
-
 def sum_items_at_even_indices(sequence):
     """
     What comes in:
@@ -179,13 +175,9 @@ def sum_items_at_even_indices(sequence):
             total = total + sequence[k]
 
     return total
-
-
 # ----------------------------------------------------------------------
 # Just TEST functions below here.
 # ----------------------------------------------------------------------
-
-
 def run_test_sum_string_lengths():
     """ Tests the   sum_string_lengths   function. """
     print()
@@ -199,7 +191,6 @@ def run_test_sum_string_lengths():
 
     print('Returned, expected:', total1, 14)
     print('Returned, expected:', total2, 27)
-
 
 def run_test_sum_even_integers():
     """ Tests the   sum_even_integers   function. """
@@ -215,7 +206,6 @@ def run_test_sum_even_integers():
     print('Returned, expected:', total1, 26)
     print('Returned, expected:', total2, 26)
     print('Returned, expected:', total3, 26)
-
 
 def run_test_sum_items_at_even_indices():
     """ Tests the   sum_items_at_even_indices   function. """
